@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layoutDirection="locale"
+    android:orientation="vertical">
+    <com.vfig.konm.knowledgeonmap.utils.custom_views.CustomTextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:textSize="@dimen/text_title_size"
+        android:textColor="@color/black"
+        android:textStyle="bold" />
+
+    <com.vfig.konm.knowledgeonmap.utils.custom_views.CustomTextView
+        android:id="@+id/snippet"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/text_size"
+        android:textColor="@color/light_gray" />
+</LinearLayout>
